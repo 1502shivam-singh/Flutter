@@ -9,3 +9,5 @@
 
 <p>This App automatically tells you the weather of your current location on opening the app.
 This app uses the openweathermap api to tell the temperature and weather of your location precisely.</p>
+
+https://openweathermap.org/api
