@@ -1,2 +1,2 @@
 # Flutter
-Android and ioS apps developed by me.
+Android and iOS apps developed by me.
