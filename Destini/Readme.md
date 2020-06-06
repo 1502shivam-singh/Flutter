@@ -1,4 +1,4 @@
-Destini- A text based story game
+# Destini- A text based story game
 
 It is a type of choose-your-own-adventure game.
 The Stories are pretty short, So do recommend some new stories,
