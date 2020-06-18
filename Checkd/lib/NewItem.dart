@@ -1,4 +1,4 @@
-
+//Class that manages tasks (The list items) and whether they are done or not 
 
 class ListItem{
   String task;
