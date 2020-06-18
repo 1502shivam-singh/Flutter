@@ -1,12 +1,14 @@
+//This unit manages the functionality and style of the tasktiles
+
 import 'package:flutter/material.dart';
 
 class Tasktile extends StatelessWidget {
   Tasktile(this.task,this.check,this.onTap,this.onlongpress);
   
-  final task;
-  final check;
-  final onTap;
-  final onlongpress;
+  final task;   //String containing the taskname
+  final check;  //bool
+  final onTap;  //function
+  final onlongpress;  //function
   @override
   Widget build(BuildContext context) {
     return Padding(
