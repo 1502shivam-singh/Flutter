@@ -1,6 +1,6 @@
 import 'package:geolocator/geolocator.dart';
 
-class Location {
+class Location {            //Class calculates the postion of the device
   double _latitude;
   double _longtitude;
 
