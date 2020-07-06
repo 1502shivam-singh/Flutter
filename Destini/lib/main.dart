@@ -25,8 +25,8 @@ class _StoryPageState extends State<StoryPage> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("images/background.png"),
-            fit: BoxFit.cover,
+            image: AssetImage("images/background.png"),       //Background image of the home page. 
+            fit: BoxFit.cover,    //Stretches the image to fit the whole container
           ),
         ),
         padding: EdgeInsets.symmetric(vertical: 50.0, horizontal: 15.0),
@@ -56,7 +56,7 @@ class _StoryPageState extends State<StoryPage> {
                   },
                   color: Colors.red,
                   child: Text(
-                    storyBrain.getChoice1(),
+                    storyBrain.getChoice1(),      //getChoice2 function returns the second choice for the above chosen story 
                     style: TextStyle(
                       fontSize: 20.0,
                     ),
@@ -78,7 +78,7 @@ class _StoryPageState extends State<StoryPage> {
                     },
                     color: Colors.blue,
                     child: Text(
-                      storyBrain.getChoice2(),
+                      storyBrain.getChoice2(),    //getChoice2 function returns the second choice for the above chosen story  
                       style: TextStyle(
                         fontSize: 20.0,
                       ),
