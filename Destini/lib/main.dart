@@ -51,7 +51,7 @@ class _StoryPageState extends State<StoryPage> {
                 child: FlatButton(
                   onPressed: () {
                     setState(() {
-                      storyBrain.nextStory(1);
+                      storyBrain.nextStory(1);    //Sets the new story progress for the first chosen option, in the top viewport
                     });
                   },
                   color: Colors.red,
@@ -73,7 +73,7 @@ class _StoryPageState extends State<StoryPage> {
                     child: FlatButton(
                     onPressed: () {
                       setState(() {
-                        storyBrain.nextStory(2);
+                        storyBrain.nextStory(2);    //Sets the new story progress for the second chosen option, in the top viewport
                       });
                     },
                     color: Colors.blue,
