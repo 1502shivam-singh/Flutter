@@ -1,4 +1,4 @@
-# Dicee 
+# Dicee 🎲
 
 A app that simulates the throw of two dice.
 
